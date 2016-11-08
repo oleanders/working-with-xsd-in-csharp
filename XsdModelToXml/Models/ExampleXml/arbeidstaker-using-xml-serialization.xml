@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Arbeidstaker xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://fk.no/fint/arbeidstaker/1.0">
+  <identifikatorer xsi:nil="true" xmlns="http://fk.no/fint/felles/1.0" />
+  <kontaktinformasjoner xsi:nil="true" xmlns="http://fk.no/fint/felles/1.0" />
+  <fulltNavn xmlns="http://fk.no/fint/felles/1.0">Ole Olsen</fulltNavn>
+  <navn xmlns="http://fk.no/fint/felles/1.0">
+    <fornavn>Ole</fornavn>
+    <etternavn>Olsen</etternavn>
+  </navn>
+  <statsborgerskap xsi:nil="true" xmlns="http://fk.no/fint/felles/1.0" />
+  <adresser xsi:nil="true" xmlns="http://fk.no/fint/felles/1.0" />
+  <stillinger xsi:nil="true" />
+  <ansettelsesperiode xsi:nil="true" />
+</Arbeidstaker>
