@@ -14,3 +14,4 @@ foreach($xsd in $xsds){
 # GENERATE CS-file from XSD
 $args = @('/classes', "/o:$xsdFolder..")
 & $xsdTool ((Get-ChildItem $xsdFolder | ForEach-Object { $xsdFolder + $_.Name }) + $args)
+
