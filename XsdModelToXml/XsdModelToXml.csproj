@@ -58,8 +58,10 @@
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Models\ExampleXml\" />
+    <Content Include="Models\ExampleXml\arbeidstaker-using-data-contract-serialization.xml" />
+    <Content Include="Models\ExampleXml\arbeidstaker-using-xml-serialization.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
