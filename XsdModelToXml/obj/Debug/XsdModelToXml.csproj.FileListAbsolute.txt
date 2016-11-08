@@ -1,1 +1,0 @@
-D:\Utvikling\Repos\rest-api-with-xsd-model\XsdModelToXml\bin\Debug\XsdModelToXml.exe.config
