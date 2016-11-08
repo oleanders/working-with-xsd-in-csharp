@@ -1,6 +1,1 @@
 D:\Utvikling\Repos\rest-api-with-xsd-model\XsdModelToXml\bin\Debug\XsdModelToXml.exe.config
-D:\Utvikling\Repos\rest-api-with-xsd-model\XsdModelToXml\bin\Debug\XsdModelToXml.exe
-D:\Utvikling\Repos\rest-api-with-xsd-model\XsdModelToXml\bin\Debug\XsdModelToXml.pdb
-D:\Utvikling\Repos\rest-api-with-xsd-model\XsdModelToXml\obj\Debug\XsdModelToXml.csprojResolveAssemblyReference.cache
-D:\Utvikling\Repos\rest-api-with-xsd-model\XsdModelToXml\obj\Debug\XsdModelToXml.exe
-D:\Utvikling\Repos\rest-api-with-xsd-model\XsdModelToXml\obj\Debug\XsdModelToXml.pdb
