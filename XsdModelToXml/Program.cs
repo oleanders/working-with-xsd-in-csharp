@@ -16,7 +16,7 @@ namespace XsdModelToXml
 
             var arbeidstaker = new ArbeidstakerType
             {
-                identifikatorer = new IdentifikatorType[]
+                identifikatorer = new[]
                 {
                   new IdentifikatorType() { identifikatortype = "FNR", identifikatorverdi = "12335435345" },
                   new IdentifikatorType() { identifikatortype = "RESNR", identifikatorverdi = "12335" }
@@ -26,8 +26,12 @@ namespace XsdModelToXml
                 {
                     fornavn = "Ole",
                     etternavn = "Olsen"
+                },
+                stillinger = new[]
+                {
+                    new StillingType{ funksjon = "123", status = "", ansettelsestype = "F" },
+                    new StillingType{ funksjon = "124", status = "", ansettelsestype = "V" }
                 }
-
             };
             
             // 1. xml serialization
@@ -39,7 +43,7 @@ namespace XsdModelToXml
 
             // 2. data contract serialization
             var serializer2 = new DataContractSerializer(typeof(ArbeidstakerType));
-            using (FileStream writer = new FileStream(@"..\..\Models\ExampleXml\arbeidstaker-using-data-contract-serialization.xml", FileMode.Create))
+            using (var writer = new FileStream(@"..\..\Models\ExampleXml\arbeidstaker-using-data-contract-serialization.xml", FileMode.Create))
             {
                 serializer2.WriteObject(writer, arbeidstaker);
             }

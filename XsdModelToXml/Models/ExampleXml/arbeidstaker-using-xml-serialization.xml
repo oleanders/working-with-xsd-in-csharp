@@ -22,6 +22,31 @@
   </navn>
   <statsborgerskap xsi:nil="true" xmlns="http://fk.no/fint/felles/1.0" />
   <adresser xsi:nil="true" xmlns="http://fk.no/fint/felles/1.0" />
-  <stillinger xsi:nil="true" />
+  <stillinger>
+    <stilling>
+      <avdeling xsi:nil="true" />
+      <funksjon>123</funksjon>
+      <grunnlonn>0</grunnlonn>
+      <organisasjon xsi:nil="true" />
+      <status />
+      <stillingskode xsi:nil="true" />
+      <stillingsnummer xsi:nil="true" />
+      <stillingstittel xsi:nil="true" />
+      <ansettelsestype>F</ansettelsestype>
+      <stillingsperiode xsi:nil="true" />
+    </stilling>
+    <stilling>
+      <avdeling xsi:nil="true" />
+      <funksjon>124</funksjon>
+      <grunnlonn>0</grunnlonn>
+      <organisasjon xsi:nil="true" />
+      <status />
+      <stillingskode xsi:nil="true" />
+      <stillingsnummer xsi:nil="true" />
+      <stillingstittel xsi:nil="true" />
+      <ansettelsestype>V</ansettelsestype>
+      <stillingsperiode xsi:nil="true" />
+    </stilling>
+  </stillinger>
   <ansettelsesperiode xsi:nil="true" />
 </Arbeidstaker>
